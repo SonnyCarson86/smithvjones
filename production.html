@@ -19,28 +19,46 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </head>
 
-<body>
-  <div class="top-container">
+<div class="btn -group">
 
-    <table align="center">
-      <tr>
-        <td>
-          <br>
-          <a href="index.html"><h1><span class="effect-shine">SMITH VERSUS JONES</span></h1></a>        </td>
-      </tr>
-</table>
-<hr>
-<table>
-      <tr><td><iframe src="images/production_book.pdf#toolbar=0" width="100%" height="500px">
+      <button type="button btn-danger" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <h1><span class="effect-shine">SMITH VERSUS JONES</span></h1>
+        <span class="sr-only">Toggle Dropdown</span>
+      </button>
+
+    <div class="dropdown-menu bg-secondary">
+
+      <a class="dropdown-item" href="index.html" target="blank">
+        <h3>SMITH VERSUS JONES</h3>
+      </a>
+      <a class="dropdown-item" href="trailer.html" target="blank">
+        <h4>Watch The Trailer</h4>
+      </a>
+
+      <a class="dropdown-item" href="feature.html" target="blank">
+        <h4>Watch Full Feature</h4>
+      </a>
+
+      <a class="dropdown-item" href="production.html" target="blank">
+        <h4>View Production Book</h4>
+      </a>
+    </div>
+  </div>
+
+<body>
+  <div class="top-container container-fluid">
+
+
+<iframe src="images/production_book.pdf#toolbar=0" width="100%" height="500px">
     </iframe></td></tr>
-    </table>
+    
   </div>
 
 
 
   
 
-  <div class="bottom-container">
+  <div class="bottom-container container-fluid">
     <table align="center" width=50% cellspacing="10" cellpadding="20">
       <tr>
         <td>
@@ -52,23 +70,6 @@
 
   </div>
 
-  <hr>
-<table>
-
-    <tr>
-      <td>
-        <a href="trailer.html"> <h2><span class="effect-shine">Watch the Trailer</span></h2></a> 
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-       <a href="feature.html"> <h2><span class="effect-shine">Watch Full Feature</span></h2></a> 
-      </td>
-    </tr>
-
-    </table>
-<hr>
 
   <div class="bottom-container">
     <footer>
