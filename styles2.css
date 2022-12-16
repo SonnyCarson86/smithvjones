@@ -21,7 +21,6 @@ h1 {
   font-size: 8rem;
 font-family: 'Limelight', cursive;
   color: #fff;
-6fccdc
 }
 
 h2 {
@@ -53,6 +52,8 @@ a {
 
 p {
   font-size: 1.4rem;
+  font-family: 'Limelight', cursive;
+
 }
 
 table {
@@ -72,6 +73,12 @@ div{
   margin-top: auto;
   margin-bottom: auto;
     align-items: center;
+
+}
+
+nav
+{
+  font-family: 'Limelight', cursive;
 
 }
 
